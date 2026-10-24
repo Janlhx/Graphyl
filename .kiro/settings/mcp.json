@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "drawio": {
+      "url": "https://mcp.draw.io/mcp",
+      "disabled": false,
+      "autoApprove": ["create_diagram", "get_drawio_reference"]
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": ["-y", "shadcn@latest", "mcp"]
+    }
+  }
+}

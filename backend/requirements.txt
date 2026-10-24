@@ -1,0 +1,8 @@
+# GraphLearn backend dependencies (KISS: no DB, no auth, stateless)
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+
+# Optional: only used if OPENAI_API_KEY is set. The code wraps its import in
+# try/except so the service boots and runs (mock mode) even without it.
+openai==1.59.6
